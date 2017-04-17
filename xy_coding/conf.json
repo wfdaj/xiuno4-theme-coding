@@ -1,0 +1,10 @@
+{
+    "name": "仿 coding.net 社区模板",
+    "brief": "作者：flarum.cc",
+    "version": "1.0",
+    "bbs_version": "4.0",
+    "installed": 1,
+    "enable": 1,
+    "hooks_rank": [],
+    "dependencies": []
+}

@@ -1,0 +1,215 @@
+body {
+  background-color: #F5F8FA;
+}
+a:focus, a:hover {
+  color: #1F98C7;
+}
+
+h3, .h3 {
+  font-size: 1.375rem;
+}
+
+/*字体大小*/
+.f12 { font-size: 0.75rem !important }
+.f13 { font-size: 0.8125rem !important }
+.f14 { font-size: 0.875rem !important; }
+.f15 { font-size: 0.9375rem !important; }
+.f16 { font-size: 1rem !important; }
+.f18 { font-size: 1.125rem !important; }
+
+#body {
+  padding-top: 4.5rem;
+}
+.navbar {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  z-index: 999;
+  box-shadow: 0 0 5px rgba(0,0,0,.2);
+  background-color: #fff;
+}
+nav .dropdown-item {
+  font-size: .85rem;
+  -webkit-appearance: initial;
+}
+
+/*卡片*/
+.card {
+  border-radius: 0.4375rem;
+  border: 1px solid #E1E8ED;
+  /*box-shadow: 0 1px 2px 0 #ccc;*/
+}
+.card-title {
+  border-bottom: 1px solid #E1E8ED;
+  color: #414952;
+  /*font-size: 1.3125rem;*/
+}
+.card-header {
+  padding: .75rem 1.5rem;
+  background-color: #F5F8FA;
+  border-bottom: 1px solid #E1E8ED;
+}
+.card-header2 {
+  padding: .75rem 1.5rem;
+  background-color: #fff;
+  border-bottom: 1px solid #E1E8ED;
+}
+
+/*按钮*/
+.btn {
+  line-height: 1;
+}
+.btn:focus, .btn.focus, .btn:active:focus, .btn:active.focus, .btn.active:focus, .btn.active.focus {
+  outline: none;
+}
+.btn-primary {
+  color: #fff;
+  background-color: #53A8E9;
+  border-color: #53A8E9;
+}
+.btn-primary:hover {
+  color: #fff;
+  background-color: #4E9DDA;
+  border-color: #4E9DDA;
+}
+.btn-primary:active, .btn-primary.active,
+.open > .btn-primary.dropdown-toggle,
+.btn-primary:active:hover, .btn-primary:active:focus, .btn-primary:active.focus, .btn-primary.active:hover, .btn-primary.active:focus, .btn-primary.active.focus,
+.open > .btn-primary.dropdown-toggle:hover,
+.open > .btn-primary.dropdown-toggle:focus,
+.open > .btn-primary.dropdown-toggle.focus {
+  background-color: #4E9DDA;
+  border-color: #4E9DDA;
+  -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+
+/*胶囊导航*/
+.nav-pills .nav-link {
+  padding: 0.375em 1em;
+}
+.nav-pills .nav-link {
+  color: #272727;
+}
+.nav-pills .nav-link.active, .nav-pills .nav-link.active:focus, .nav-pills .nav-link.active:hover,
+.nav-pills .nav-item.open .nav-link,
+.nav-pills .nav-item.open .nav-link:focus,
+.nav-pills .nav-item.open .nav-link:hover {
+  color: #1F98C7;
+  background-color: #fff;
+}
+.nav-pills .nav-item:hover > a {
+  background-color: #fff;
+}
+
+/*头像*/
+.avatar {
+  width: 2.25rem;
+  height: 2.25rem;
+  border-radius: 0.3125rem;
+}
+
+/*表格*/
+.table th,
+.table td {
+  padding: 0.75rem;
+  border-top: 1px solid #E1E8ED;
+}
+.table thead th {
+  border-bottom: 1px solid #e5e5e5;
+}
+.table-hover tbody tr:hover {
+  cursor: pointer;
+  background-color: #F5F8FA;
+}
+.table td.td-checkbox {
+  padding: 1rem 0.2rem 0 1rem;
+}
+/*帖子列表*/
+dl.row > dt.td-avatar, .table .td-avatar {
+  width: 3.0rem;
+  padding: 0.625rem;
+}
+.thread .subject a {
+  color: #3d464d;
+}
+.thread .subject a:hover {
+  color: #366df0;
+  text-decoration: none;
+}
+
+
+/*引用效果*/
+.blockquote {
+  padding: 0.625rem 1rem;
+  margin-bottom: 1rem;
+  background-color: #f2f2f2;
+  background-image: none;
+}
+
+/*面包屑导航*/
+.breadcrumb {
+  padding: 0.75rem 1rem;
+  margin-bottom: 1rem;
+  list-style: none;
+  background-color: #F0F2F5;
+  border: none;
+}
+.breadcrumb-item + .breadcrumb-item::before {
+  font-family: \5B8B\4F53;
+  content: "\2192";
+}
+
+/*标签分类样式*/
+table.nav_tag_list {
+  display: block;
+  padding: .75rem 1.5rem;
+  background-color: #fff;
+  border-bottom: none;
+  margin-bottom: 0;
+}
+table.nav_tag_list td {
+  padding: 0.1rem;
+}
+table.nav_tag_list td a {
+  display: block;
+  float: left;
+  padding: 0.375em 1em;
+  border-radius: 0.25rem;
+  font-size: 0.9375rem !important;
+}
+table.nav_tag_list td a:hover {
+  text-decoration: none;
+  background-color: #f3f3f3;
+  color: #111;
+}
+table.nav_tag_list .text-small {
+  display: none;
+}
+.nav_tag_list .active {
+  color: #111;
+  font-weight: normal;
+  background-color: #f3f3f3;
+}
+
+
+
+
+#footer {
+  background: #fff;
+  border-top: 1px solid #e0e0e0;
+}
+
+.no-shadow {
+  box-shadow: none !important;
+}
+
+.text-grey {
+  color: #8899A6 !important;
+}
+.text-primary {
+  color: #1F98C7 !important;
+}
+
+a.text-primary:focus, a.text-primary:hover {
+  color: #1F98C7 !important;
+}
